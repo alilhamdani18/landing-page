@@ -1,0 +1,54 @@
+:root {
+  --primary-color:#05627b;
+  --secondary-color:#f49820;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  gap: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1em;
+}
+.navbar .title {
+  display: flex;
+  gap: 1em;
+  color: var(--primary-color);
+}
+.name span {
+  color: var(--secondary-color);
+}
+.navbar .navigation ul {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.navbar ul li {
+  list-style-type: none;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.navbar button {
+  padding: 8px 25px;
+  border: 2px solid var(--primary-color);
+  border-radius: 7px;
+  cursor: pointer;
+}
+.navbar .sign-up {
+  background-color: var(--primary-color);
+  color: #fff;
+  margin-left: 1em;
+}
