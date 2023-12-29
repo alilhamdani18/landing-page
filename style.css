@@ -109,3 +109,20 @@ body {
   height: 60vh;
   filter: drop-shadow(2px 2px 3px #2b2a2a);
 }
+
+.social-media {
+  margin-top: 1em;
+  display: flex;
+  gap: 1em;
+}
+.sosmed {
+  width: 45px;
+  display: grid;
+  place-content: center;
+  color: var(--primary-color);
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.3em;
+}
+
